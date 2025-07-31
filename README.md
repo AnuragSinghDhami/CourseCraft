@@ -109,19 +109,38 @@ SaaS-style subscription or one-time payment to unlock premium benefits.
 git clone https://github.com/your-username/ai-course-generator.git
 cd ai-course-generator
 ```
-# Install dependencies
+## Install dependencies
 ```
 npm install
 ```
-# Environment variables
+## Environment variables
 cp .env.example .env.local
-# Fill in required API keys for:
+## Fill in required API keys for:
 ```
-# - GEMINI_API_KEY
-# - YOUTUBE_API_KEY
-# - CLERK_API_KEYS
+# Clerk Configuration
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL=/
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/
+NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL=/
+
+# Database Configuration
+DATABASE_URL=
+NEXT_PUBLIC_DATABASE_URL=
+
+# Gemini API Key
+GEMINI_API_KEY=
+
+# AI Guru Lab API
+AI_GURU_LAB_API=
+
+# YouTube API Key
+YOUTUBE_API_KEY=
+
 ```
-# Run locally
+## Run locally
 ```
 npm run dev
 ```
