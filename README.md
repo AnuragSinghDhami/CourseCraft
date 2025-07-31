@@ -2,7 +2,54 @@
 
 An AI-powered personalized course generator that creates structured learning paths based on user input. This platform integrates **YouTube API** to supplement courses with curated video content, offering a rich and engaging educational experience.
 
-## ScreenShots
+## 📸 Screenshots
+
+### 1️⃣ Hero Page – Get Started
+Clean and modern landing page with a prominent **Get Started** button.  
+![Hero Page](./pp1.png)
+
+---
+
+### 2️⃣ Authentication with Clerk
+Sign up or sign in securely using **Clerk** authentication.  
+![Authentication](./pp2.png)
+
+---
+
+### 3️⃣ Creating a Course
+Users can enter topic, category, and level to generate a custom course.  
+![Create Course](./pp3.png)
+
+---
+
+### 4️⃣ All Courses Section
+Displays all the courses generated so far by all users.  
+![All Courses](./pp4.png)
+
+---
+
+### 5️⃣ Gemini Generated Course Layout
+Course outline generated using **Gemini AI** based on user input.  
+![Course Layout](./pp5.png)
+
+---
+
+### 6️⃣ YouTube Videos for Each Chapter
+Auto-fetched YouTube videos related to each chapter topic.  
+![YouTube Videos](./pp6.png)
+
+---
+
+### 7️⃣ Actual Content in Each Chapter
+Detailed AI-generated explanation and content for each chapter.  
+![Chapter Content](./pp7.png)
+
+---
+
+### 8️⃣ Payment Page for Subscription
+SaaS-style subscription or one-time payment to unlock premium benefits.  
+![Payment Page](./pp8.png)
+
 ## 🚀 Features
 
 - ✨ **AI-Powered Course Generation** using **Gemini API**
