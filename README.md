@@ -69,10 +69,11 @@ npm install
 # Environment variables
 cp .env.example .env.local
 # Fill in required API keys for:
+```
 # - GEMINI_API_KEY
 # - YOUTUBE_API_KEY
 # - CLERK_API_KEYS
-
+```
 # Run locally
 ```
 npm run dev
